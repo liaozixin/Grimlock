@@ -1,0 +1,12 @@
+GSystemInfo {
+    width: 100%;
+    height: auto;
+}
+
+#sys_error_msg,
+#sys_setup_msg,
+#sys_info_msg,
+#sys_success_msg {
+    width: 100%;       
+    height: auto;      
+}

@@ -1,0 +1,20 @@
+GBanner {
+    height: auto;
+    width: auto;
+}
+
+#cli-banner-container {
+    height: auto; 
+    width: auto;
+}
+
+#banner-title-A {
+    margin: 0;
+    color: #c97a52;
+}
+
+#banner-title-B {
+    margin: 0;
+    color: #ff9e64;
+}
+

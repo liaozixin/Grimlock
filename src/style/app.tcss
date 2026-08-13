@@ -1,0 +1,40 @@
+/* =================App======================= */
+Screen {
+    layers: below above;
+}
+
+#root_container {
+    width: 100%;
+    height: 100%;
+    layout: vertical;
+    padding: 0 1; 
+}
+
+#main_content {
+    height: 1fr;
+    width: 100%;
+    scrollbar-color: #a6b1d9 50%;
+    scrollbar-size: 1 1;
+    scrollbar-color-hover: #b4bfe6;
+    scrollbar-color-active: #c2cdfc;
+}
+
+#chat_input {
+    height: auto; 
+    layers: below;
+}
+
+#suggestion_box {
+    layer: above;
+    dock: bottom;
+    offset: 4 -2;
+}
+/* ============================================= */
+
+
+
+/* ================Common====================== */
+.hidden {
+    display: none;
+}
+/* ============================================ */

@@ -1,0 +1,4 @@
+#cli-tips-container {
+    width: 100%;
+    align: center middle;
+}

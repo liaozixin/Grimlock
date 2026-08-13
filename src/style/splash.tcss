@@ -1,0 +1,64 @@
+SplashScreen {
+    align: center middle;
+}
+
+#splash-container {
+    width: 80;
+    height: auto;
+    align: center top;
+}
+
+#banner-container {
+    width: 100%;
+    height: auto;
+    align-horizontal: center;
+}
+
+#banner-wrapper {
+    width: auto;
+    height: auto;
+}
+
+#splash-author {
+    width: 100%;
+    content-align: right middle;
+    margin-bottom: 1;
+}
+
+GBanner {
+    width: auto;
+}
+
+GInput {
+    width: 100%;
+    height: 3;
+    margin-top: 1;
+}
+
+#dock-bottom {
+    dock: bottom;
+    width: 100%;
+    height: 1;
+    align: left middle;
+    padding: 0 1;
+    margin-bottom: 1;
+}
+
+#path-label-A {
+    width: 1fr; 
+    color: #565f89;
+}
+
+#path-label-B {
+    width: auto;
+    color: #565f89;
+}
+
+GModelStatusBar {
+    height: 1;
+}
+
+GTips {
+    margin-top: 3;
+    height: 1;
+}
